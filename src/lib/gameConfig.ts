@@ -1,0 +1,45 @@
+// Central game configuration
+export const GAME_CONFIG = {
+  // Quiz settings
+  QUIZ_TIME_PER_QUESTION: 15,
+  QUIZ_BASE_SCORE: 100,
+  QUIZ_TIME_BONUS_MULTIPLIER: 10,
+  
+  // Health & Lives
+  MAX_HEALTH: 3,
+  INITIAL_HEALTH: 3,
+  
+  // Shop prices (XP)
+  SHOP_POTION_COST: 100,
+  SHOP_HINT_COST: 150,
+  SHOP_MAX_POTIONS: 20,
+  SHOP_MAX_HINTS: 35,
+  
+  // XP & Score
+  FIRST_CLEAR_BONUS: 100,
+  STAGE_COMPLETION_BONUS: 500,
+  STAR_3_MULTIPLIER: 1.5,
+  STAR_2_MULTIPLIER: 1.2,
+  
+  // Star thresholds (percentage of max score)
+  STAR_3_THRESHOLD: 0.7,
+  STAR_2_THRESHOLD: 0.5,
+  
+  // Cache & Performance
+  LEADERBOARD_CACHE_TTL: 10000, // 10 seconds
+  LEADERBOARD_REALTIME_THROTTLE: 3000, // 3 seconds
+  SYNC_BATCH_DELAY: 300, // 300ms
+  STORAGE_BATCH_DELAY: 300, // 300ms
+  
+  // Rate limiting
+  RATE_LIMIT_INTERVAL: 1000, // 1 second
+  
+  // Side Quest
+  SIDE_QUEST_LIVES: 3,
+  SIDE_QUEST_INITIAL_DISTANCE: 100,
+  SIDE_QUEST_DISTANCE_DECREMENT: 1.2,
+  SIDE_QUEST_DANGER_THRESHOLD: 15,
+  SIDE_QUEST_DISTANCE_GAIN: 25,
+  SIDE_QUEST_DISTANCE_LOSS: 12,
+  SIDE_QUEST_XP_REWARD: 500,
+} as const;
