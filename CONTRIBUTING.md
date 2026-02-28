@@ -25,7 +25,7 @@ We welcome feature suggestions! Please:
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/sofinco/sofinlearn.git
+   git clone https://github.com/levouinse/sofinlearn.git
    cd sofinlearn
    ```
 
